@@ -24,7 +24,7 @@ class Linkedlist:
     def display(self):
         curr_node=self.head
         while curr_node:
-            print(curr_node.data,end="--<>")
+            print(curr_node.data,end="-->")
             curr_node=curr_node.pointer
         print("Null")
 
